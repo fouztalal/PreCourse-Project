@@ -19,8 +19,19 @@
  * sumOdds([3, 7, 8, 15, 2, 1, 13]) -> 39
  */
 function sumOdds(numbers) {
-  // Your code here
+
+let sum = 0 ;
+numbers.forEach((num) => {
+  if (num % 2 === 1){
+    sum = sum + num;
+  }
+  return sum;
+});
 }
+
+
+  // Your code here
+
 // console.log(sumOdds([3, 7, 8, 15, 2, 1, 13]));
 
 /**
@@ -37,6 +48,13 @@ function sumOdds(numbers) {
  * Another Hint: Use string methods to make it case-insensitive
  */
 function characterCount(string, c) {
+  let n = 0 ;
+  character.split (char) {
+    if ( char === "c")
+    n +=1;
+  }
+ return n;
+
   // Your code here
 }
 // console.log(characterCount("Character Count is clever", "c"));
